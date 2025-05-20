@@ -1,0 +1,14 @@
+{
+  "nativePlugins": [
+    {
+      "hooksClass": "com.usm.rk_module.RKAppHookProxy",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "rk-module",
+          "class": "com.usm.rk_module.RKModule"
+        }
+      ]
+    }
+  ]
+}

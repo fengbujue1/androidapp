@@ -1,0 +1,9 @@
+{
+	"frameworks": [
+
+	],
+	"deploymentTarget": "9.0", // 可选，插件支持的最低 iOS 版本  默认：9.0"
+	"validArchitectures": [ // 可选，支持的 CPU 架构类型 默认：armv7、arm64
+		"arm64" // 支持多个值，可取值："arm64", "armv7"
+	]
+}

@@ -1,0 +1,92 @@
+{
+  "pages": [
+    {
+      "path": "pages/loading/loading"
+    },
+    {
+      "path": "pages/index/index"
+    },
+    {
+      "path": "pages/login/login"
+    },
+    {
+      "path": "pages/record/record",
+      "style": {
+        "navigationStyle": "write",
+        "navigationBarTitleText": "记录"
+      }
+    },
+    {
+      "path": "pages/setting/setting"
+    },
+    {
+      "path": "pages/recording/recording",
+      "style": {
+        "navigationStyle": "write",
+        "navigationBarTitleText": "录音",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/recording-details/recording-details",
+      "style": {
+        "navigationStyle": "write",
+        "navigationBarTitleText": "录音详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/tips/tips",
+      "style": {
+        "navigationStyle": "write",
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/webview/webview",
+      "style": {
+        "navigationStyle": "write",
+        "navigationBarTitleText": "分析报告",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+    	"path" : "pages/bqsy/bqsy",
+    	"style" :
+    	{
+          "navigationStyle": "write",
+          "navigationBarTitleText": "版权所有",
+          "enablePullDownRefresh": false
+    	}
+    }
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index-selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "iconPath": "static/record.png",
+        "selectedIconPath": "static/record-selected.png",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "iconPath": "static/setting.png",
+        "selectedIconPath": "static/setting-selected.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "uniIdRouter": {}
+}

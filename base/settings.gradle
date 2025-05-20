@@ -1,0 +1,5 @@
+include ':app-package'
+include ':app-debug'
+include ':rk-module'
+include ':recorderlib'
+
