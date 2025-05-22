@@ -3,7 +3,7 @@ import store from "@/js/store";
 import RemoteLogger from "@/js/remoteLogger";
 
 // 初始化远程日志记录器，替代原有的console
-RemoteLogger.replaceConsole();
+//RemoteLogger.replaceConsole();
 
 // #ifndef VUE3
 import Vue from 'vue'
