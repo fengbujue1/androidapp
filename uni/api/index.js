@@ -1,6 +1,7 @@
 // API封装文件
 
-const BASE_URL = 'https://biexiaozhi.cn/zsh';
+// const BASE_URL = 'https://biexiaozhi.cn/zsh';
+const BASE_URL = 'http://192.168.1.8:9099/zsh';
 
 /**
  * 生成文档接口

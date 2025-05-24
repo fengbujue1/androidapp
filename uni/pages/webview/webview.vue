@@ -12,6 +12,7 @@
 			}
 		},
     onLoad(options) {
+		 console.log("文档地址：",options.src);
       this.src = options.src
     },
 		methods: {

@@ -68,6 +68,9 @@ innerAudioContext.onError((res) => {
   console.log(res.errMsg);
   console.log(res.errCode);
 });
+
+// const BASE_URL = 'https://biexiaozhi.cn/zsh';
+const BASE_URL = 'http://192.168.1.8:9099/zsh';
 export default {
   components: { toast },
 
@@ -297,7 +300,7 @@ export default {
       });
 
       uni.request({
-        url: "https://biexiaozhi.cn/zsh/genDoc",
+        url: `${BASE_URL}/genDoc`,
         method: "POST",
         data: params,
         success: (res) => {
